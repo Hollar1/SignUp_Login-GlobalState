@@ -1,0 +1,44 @@
+.wrapper {
+  background-image: url("../../assets/images/background_images.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sec_01 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec_01 div {
+  margin-top: 15px;
+}
+.error {
+  background-color: rgb(182, 1, 1);
+}
+
+.sec_02 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  font-family: inter;
+}
+.sec_02 button {
+  padding: 0px 5px;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  color: brown;
+  font-weight: 600;
+  text-decoration: underline brown 3px;
+}

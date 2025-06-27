@@ -1,0 +1,19 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin: 20px auto;
+  width: 355px;
+  height: 45px;
+  border-radius: 7px;
+  background-color: brown;
+  color: white;
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 22px;
+  border: none;
+}
+.btn:active{
+  background-color: rgb(240, 98, 98);
+}

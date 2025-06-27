@@ -1,0 +1,114 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+  font-family: roboto;
+  font-size: 25px;
+}
+.wrapper {
+  border: solid gray 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 45px;
+  padding: 5px;
+  width: 355px;
+}
+
+.wrapper:focus-within {
+  border: double 3px rgb(117, 2, 2);
+}
+
+.wrapper span {
+  color: rgb(117, 2, 2);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-inline-start: 10px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+.wrapper input::placeholder {
+  font-size: 16px;
+}
+
+.wrapper button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  color: rgb(117, 2, 2);
+}
+
+.gender {
+  display: flex;
+  border: solid;
+  width: 355px;
+  padding: 5px;
+  border-radius: 5px;
+  height: 45px;
+  border: solid gray 2px;
+  align-items: center;
+  position: relative;
+}
+
+.gender:focus-within {
+  border: double 3px rgb(117, 2, 2);
+}
+
+.gender aside {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  position: absolute;
+  left: 8.5%;
+  justify-content: space-between;
+}
+
+.gender div label {
+  display: flex;
+  align-items: center;
+  font-family: inter;
+  margin-bottom: 12px;
+  gap: 3px;
+}
+
+.gender div label input {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: solid 2px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.gender div label input:checked {
+  background-color: rgb(104, 102, 102);
+}
+
+.gender span {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 2.5%;
+  font-size: 18px;
+}
+
+.eye_icon {
+  font-size: 25px;
+  margin-top: 10px;
+  color: rgb(117, 2, 2);
+  margin-right: 5px;
+}
